@@ -1,0 +1,16 @@
+{
+    "Resources": {
+        "S3Bucket": {
+            "Type": "AWS::S3::Bucket",
+            "Properties": {
+                "BucketName": "bucket-demo-cfn-drift",
+                "MetricsConfigurations": [
+                    {
+                        "Id": "EntireBucket"
+                    }
+                ]
+            },
+            "DeletionPolicy": "Retain"
+        }
+    }
+}
