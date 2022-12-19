@@ -8,7 +8,10 @@
                     {
                         "Id": "EntireBucket"
                     }
-                ]
+                ],
+                "PublicAccessBlockConfiguration": {
+                    "IgnorePublicAcls": true
+                }
             },
             "DeletionPolicy": "Retain"
         }
